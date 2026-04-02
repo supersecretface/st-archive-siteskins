@@ -1,0 +1,926 @@
+/* ST AO3 SITE SKINS - ARCADIA
+ * -------------------------------------
+ *
+ * THIS IS A FAN CREATION AND IS NOT FOR PROFIT.
+ * NO COPYRIGHT INFRINGEMENT IS INTENDED.
+ * I DO NOT CLAIM OWNERSHIP OF ANY OF THE ASSETS USED.
+ * Thank you to Elia Pellegrini and Alex Tillbrook for
+ * creating the visuals for this album!
+ *
+ * Make sure to install the corresponding UserStyle to
+ * have the best experience with this skin!
+ * https://userstyles.world/style/27411
+ */
+
+
+
+
+
+:root {
+  --dark: #161e19;
+  --dtext: #171e18;
+  --goldb: #c3ac78;
+  --goldl: #D3D0C6;
+  --veri: rgb(40, 56, 49);
+  --magd: rgb(78, 54, 62);
+  --magl: #7d4c5a;
+}
+
+body {
+  color: var(--goldb);
+  background: var(--dark);
+  font-family: "Baskerville", "Times New Roman", serif;
+}
+
+.heading a,
+#nav.greeting,
+h1.heading,
+h2.heading,
+h3.heading,
+#dashboard a,
+#dashboard .current,
+a.dropdown-toggle,
+#header .menu.dropdown-menu a,
+#user-fandoms a,
+.profile-show .wrapper .meta dt,
+#greeting .user > li,
+legend .action,
+.blurb h4.heading a,
+#work-filters dt {
+  font-family: "Roabla", "Romanize", "Times New Roman", serif;
+  text-decoration: none;
+  border-radius: 0 !important;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+}
+
+.blurb .datetime,
+textarea,
+blockquote,
+pre,
+#footer button,
+#header #search .button,
+input,
+input[type="submit"],
+.splash .news .meta,
+button,
+.toggled form,
+.dynamic form {
+  font-family: "Baskerville", "Times New Roman", serif;
+}
+
+.splash .news .meta,
+.reading h4.viewed,
+#main .actions,
+#main .action,
+.flash.notice,
+.module .heading .link,
+.action,
+.action:link,
+.submit input,
+.actions input,
+input[type="submit"] {
+  color: var(--goldl);
+}
+
+#nav.greeting,
+a,
+a:visited,
+.actions a:visited,
+.reading h4.viewed,
+a:link,
+a:visited:hover {
+  color: var(--goldl);
+}
+
+#outer {
+  background-color: var(--dark);
+}
+
+#header .logo {
+  display: none;
+}
+
+#header {
+  box-shadow: inset 0 5em 4em 0px rgba(48, 48, 46,0.4), inset 0 4em 3em 0px var(--veri);
+  background-image: url("https://i.imgur.com/IRP1qd2.jpeg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header .heading {
+  margin-bottom: 5%;
+  margin-left: 5%;
+  font-size: 1.5em;
+  letter-spacing: .35em;
+}
+
+#header .heading a,
+#header a,
+#header #search .button {
+  color: var(--goldb);
+}
+
+#header ul.primary {
+  background: var(--veri);
+  color: var(--goldb);
+  box-shadow: none;
+}
+
+#header .menu.dropdown-menu {
+  background: rgba(40, 56, 49, .85);
+  background-image: none;
+  border-radius: 0;
+  width: max-content;
+}
+
+#header .menu li {
+  border-bottom: none;
+}
+
+#header .menu.dropdown-menu a:link,
+#header .menu.dropdown-menu a:visited {
+  color: var(--goldb) !important;
+}
+
+#header .menu.dropdown-menu a:hover {
+  color: var(--goldl) !important;
+  background: rgba(128, 109, 113, 0.7) !important;
+}
+
+#greeting .open,
+#header .open,
+#greeting .open .dropdown-toggle {
+  background: transparent;
+  border-radius: 0;
+  color: var(--goldl);
+}
+
+.home .header h2 {
+  margin-bottom: 5px;
+}
+
+nav #greeting {
+  background: var(--veri);
+  border-radius: 0;
+}
+
+#greeting a.dropdown-toggle:visited {
+  color: rgba(211, 208, 198, 0.6);
+}
+
+#greeting .user > li:nth-of-type(3) a:hover,
+#greeting .user.navigation.actions a:hover,
+#greeting .user > li a,
+#header.region .primary.navigation.actions a:hover,
+#greeting .user > li:nth-of-type(3) a:focus,
+#greeting .user.navigation.actions a:focus,
+#header.region .primary.navigation.actions a:focus {
+  border-radius: 0;
+  color: var(--goldl);
+}
+
+#header.region .primary.navigation.actions a:hover,
+#header.region .primary.navigation.actions a:focus {
+  background: rgba(40, 56, 49, .85);
+  color: var(--goldl);
+}
+
+.actions a:link,
+.action,
+.actions a,
+.action:link,
+.actions button,
+.actions input,
+input[type="submit"],
+button,
+button[type="submit"],
+.current,
+.actions a:hover,
+.actions button:hover,
+.actions input:hover,
+.actions a:focus,
+.actions button:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus,
+.resp-sharing-button--bluesky,
+.resp-sharing-button--tumblr,
+.listbox p.actions a {
+  background: var(--veri);
+  background-image: none;
+  border: 4px solid var(--goldl);
+  border-image: url("https://i.imgur.com/gTq30M1.png") 45% 45% 45% 45%;
+  box-shadow: none !important;
+  border-image-inset: 32px;
+  border-image-width: 50%;
+}
+
+.actions a,
+.actions a:link,
+.actions button {
+  color: var(--goldl);
+}
+
+.current,
+.actions a:hover,
+button:hover,
+input:hover,
+.actions a:focus,
+.actions button:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus {
+  color: var(--goldb);
+}
+
+a,
+a:hover {
+  box-shadow: none !important;
+}
+
+#footer {
+  background-color: var(--veri);
+  background-image: url("https://i.imgur.com/MOrbDEZ.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+  color: var(--goldl);
+  box-shadow: inset 0 5em 4em 0px var(--dark);
+  font-size: 1em;
+  padding-bottom: 2em;
+}
+
+#footer .heading,
+#footer a,
+#footer a:link,
+#footer a:visited,
+#footer button,
+a.tag {
+  color: var(--goldl);
+  text-decoration: none;
+}
+
+.blurb .tags a,
+.blurb .tags a:link {
+  color: var(--magl);
+}
+
+#footer .heading {
+  border-bottom: 1px solid var(--goldb);
+  font-family: "Roabla", "Romanize", "Times New Roman", serif;
+  letter-spacing: .15em;
+}
+
+#footer a:hover,
+#footer button:hover {
+  background: var(--magd);
+}
+
+.actions a:hover,
+.actions button:hover,
+.actions input:hover,
+.action:hover,
+.action:focus,
+input[type="submit"]:hover,
+button:hover,
+.actions input:focus {
+  color: var(--goldb);
+  text-shadow: none;
+  box-shadow: none;
+}
+
+legend,
+form.verbose legend,
+verbose-form legend {
+  background: var(--goldb);
+  color: var(--dark);
+  border: 1px solid var(--goldb);
+  font-family: "Roabla", "Romanize", "Times New Roman", serif;
+  letter-spacing: 0.15em;
+  font-size: 2em;
+  padding: 0.5em;
+  height: auto;
+  width: auto;
+  opacity: 1;
+  box-shadow: none;
+}
+
+legend .action {
+  color: var(--magd) !important;
+  border: none !important;
+  background: transparent !important;
+}
+
+legend .action:hover {
+  color: var(--magd) !important;
+  background: transparent !important;
+}
+
+.autocomplete div.dropdown ul,
+.comment h4.byline,
+.comment h4.byline a,
+.comment span.posted.datetime {
+  background: var(--veri);
+  color: var(--goldb);
+}
+
+.autocomplete .dropdown ul li:hover,
+.autocomplete .dropdown li.selected {
+  background: var(--magl) !important;
+  background-image: none;
+  color: var(--dark);
+}
+
+#dashboard,
+#dashboard.own,
+#work-filters fieldset,
+.favorite.module {
+  background-image: url("https://i.imgur.com/IRP1qd2.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: var(--goldb);
+  border: none;
+  box-shadow: none;
+}
+
+#dashboard,
+#dashboard.own,
+.favorite.module {
+  background-color: var(--veri);
+}
+
+#dashboard a,
+#dashboard a:link,
+#dashboard a:visited {
+  color: var(--goldl);
+  background: transparent;
+  border-radius: 0;
+}
+
+#work-filters dl {
+  background: var(--magd);
+}
+
+.listbox .heading a.tag:visited:hover {
+  background: var(--magl);
+}
+
+#dashboard a:hover,
+.thread .even {
+  background: rgba(211, 208, 198, 0.5);
+}
+
+#dashboard .current {
+  color: var(--goldb);
+  background: var(--magl);
+}
+
+#dashboard ul {
+  border-top: 2px solid var(--goldb);
+}
+
+#dashboard ul.navigation.actions {
+  background: var(--dark);
+}
+
+#dashboard.own {
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+}
+
+fieldset,
+.listbox .index {
+  border: 2px solid var(--goldb);
+  background: var(--veri);
+  box-shadow: none;
+}
+
+.listbox a {
+  color: var(--dark);
+  background-color: rgba(78, 54, 62, 0.3);
+}
+
+.listbox h3 a {
+  color: var(--goldl);
+}
+
+.listbox a.tag,
+.listbox a.tag:visited {
+  color: var(--goldl);
+  background-color: rgba(78, 54, 62, 0.1);
+}
+
+.listbox ol.index.group a,
+.listbox ol.index.group a:link {
+  color: var(--goldb);
+}
+
+.bookmark .user {
+  border: 1px solid var(--goldb);
+}
+
+span.symbol {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff {
+  border: none;
+  box-shadow: none;
+}
+
+input[type="text"],
+select,
+textarea {
+  color: var(--dtext);
+  background: var(--goldl);
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.reading h4.viewed {
+  background: var(--goldb);
+  color: var(--dark);
+}
+
+.listbox {
+  background: var(--dtext);
+  color: var(--goldl);
+  border: 5px double var(--goldb);
+  box-shadow: none;
+}
+
+.listbox > .heading,
+.listbox .heading a:visited {
+  color: var(--goldl);
+}
+
+ol.pagination {
+  background-color: var(--dark);
+}
+
+.pagination.actions a {
+  color: var(--goldl);
+}
+
+.pagination.actions a:hover,
+.pagination.actions a:active,
+.pagination.actions span.current {
+  color: var(--goldb);
+  background-color: var(--dark);
+}
+
+.filters .expander {
+  color: var(--goldl);
+  border: 1px solid #c5bea8;
+  border-radius: 0;
+  margin-bottom: .5em;
+  background: var(--veri);
+}
+
+.filters .expanded .expander {
+  color: var(--veri) !important;
+  background: var(--goldl) !important;
+  background-image: none !important;
+}
+
+.favorite h3,
+.news span.title,
+.social h3,
+.random.readings h3,
+.blurb h4 a:link,
+.blurb h4 a:visited,
+.blurb h4 a:focus,
+.blurb h4 a:hover,
+.splash .module h3,
+.index.group .blurb .heading a,
+.index.group .blurb .heading a:visited,
+.news .post.group .header,
+.work.meta.group a,
+#modal p {
+  color: var(--goldb);
+}
+
+.favorite.module {
+  background-color: var(--dtext);
+  background-blend-mode: overlay;
+}
+
+.splash .module h3,
+.picture .header,
+form dt {
+  border-bottom: 1px solid var(--goldb);
+}
+
+.blurb h4 a:focus,
+.blurb h4 a:hover,
+a.tag:hover {
+  background: rgba(211, 208, 198, 0.1);
+}
+
+li.relationships a {
+  background: rgba(211, 208, 198, 0.65) !important;
+  color: var(--magd) !important;
+  font-weight: bold;
+}
+
+li.relationships a:hover {
+  background: var(--magd) !important;
+  color: var(--goldl) !important;
+}
+
+li.relationships a.tag::before {
+  content: "🙞 ";
+}
+
+li.characters a.tag::before {
+  content: "🙚 ";
+}
+
+.splash .favorite li a {
+  background: linear-gradient(270deg, rgba(40, 56, 49, .5) 0%, rgba(40, 56, 49, .85) 50%);
+  color: var(--goldl);
+}
+
+.splash .favorite li:nth-of-type(2n + 1) a {
+  background: linear-gradient(270deg, rgba(128, 109, 113, .5) 0%, rgba(128, 109, 113, .85) 50%);
+  color: var(--goldb);
+}
+
+.splash .favorite li a:hover,
+.splash .favorite li a:focus {
+  background: linear-gradient(270deg, rgba(128, 109, 113, .15) 20%, rgba(128, 109, 113, .75) 50%);
+  color: var(--goldb);
+}
+
+.splash .favorite li:nth-of-type(2n+1) a:hover,
+.splash .favorite li:nth-of-type(2n+1) a:focus {
+  background: linear-gradient(270deg, rgba(128, 109, 113, .15) 20%, rgba(128, 109, 113, .45) 50%);
+  color: var(--goldl);
+}
+
+.social.module,
+ol .reading.work.index.group,
+.latest.messages.module,
+.listbox .index,
+.index.group .blurb,
+li.blurb {
+  background-image: url("https://i.imgur.com/v6OqIRg.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--dtext);
+  background-blend-mode: overlay;
+}
+
+#add_comment fieldset,
+#bookmark-filters {
+  background-image: url("https://i.imgur.com/IRP1qd2.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--magd);
+  background-blend-mode: multiply;
+}
+
+li.blurb {
+  padding: 0.429em;
+  padding-bottom: 0;
+  margin-bottom: 0.75em;
+}
+
+fieldset .verbose .post fieldset,
+.verbose fieldset,
+form dl,
+.index.group .blurb,
+dl.work.meta.group,
+.resp-sharing-button--bluesky,
+.resp-sharing-button--tumblr {
+  margin: 10px;
+  border: 30px solid transparent;
+  outline: 1px solid var(--goldb);
+  border-image: url("https://i.imgur.com/XdkQ5rG.png") 25% 25% 25% 25%;
+  box-shadow: none;
+  border-image-width: 45px;
+  border-image-outset: 5px;
+}
+
+#bookmark-filters fieldset dl,
+#work-filters fieldset dl {
+  border: none !important;
+}
+
+#work-filters fieldset dl {
+  background-color: var(--dark) !important;
+}
+
+li.blurb {
+  padding: 0.429em;
+  padding-bottom: 0;
+  margin-bottom: 0.75em;
+}
+
+fieldset .verbose .post fieldset,
+.verbose fieldset,
+form dl,
+.resp-sharing-button--bluesky,
+.resp-sharing-button--tumblr {
+  background: url("https://i.imgur.com/qvifTK7.jpeg");
+  background-color: var(--veri);
+  background-blend-mode: multiply;
+}
+
+#modal {
+  border: 5px solid;
+  border-image: linear-gradient(to right, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c) 1;
+}
+
+.resp-sharing-button--bluesky,
+.resp-sharing-button--tumblr,
+.resp-sharing-button--bluesky:hover,
+.resp-sharing-button--tumblr:hover {
+  color: var(--magl);
+  border: 2px double var(--goldb) !important;
+  background-color: var(--veri) !important;
+}
+
+.resp-sharing-button__icon--solid {
+  filter: brightness(1.2) sepia(1) hue-rotate(290deg) saturate(2);
+}
+
+.resp-sharing-button--bluesky:hover,
+.resp-sharing-button--tumblr:hover {
+  transform: translateY(4px);
+}
+
+dl.meta,
+.listbox,
+fieldset fieldset.listbox {
+  border: 1px double var(--goldb);
+  box-shadow: none;
+}
+
+.stats a,
+ul.series a,
+.module p a,
+fieldset.fandom.listbox a {
+  color: var(--goldb);
+}
+
+.news.index.group {
+  background-image: url("https://i.imgur.com/WOMfr5p.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.splash .news li {
+  border-bottom: 1px solid var(--goldb);
+}
+
+.news .post .header a,
+fieldset h3 {
+  color: var(--goldb);
+}
+
+.verbose.post fieldset .notice {
+  border: none;
+}
+
+.notice,
+.kudos_error {
+  background-color: rgba(78, 54, 62, .75);
+  color: var(--goldb);
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+form .notice {
+  background-color: rgba(78, 54, 62, .75);
+  border: 4px double var(--goldb);
+  box-shadow: none;
+}
+
+.required,
+.error,
+.alert.flash {
+  color: var(--magl);
+}
+
+.required .notice {
+  color: var(--goldb);
+}
+
+dl.work.meta.group {
+  color: var(--goldb);
+}
+
+.wrapper {
+  box-shadow: none;
+}
+
+#workskin {
+  background-color: var(--dark);
+  background-image: url("https://i.imgur.com/EiI1Zb0.png");
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% auto;
+  border: 2em solid var(--goldl);
+  border-image: url("https://i.imgur.com/gTq30M1.png") 45% 45% 45% 45%;
+  border-image-repeat: round;
+  border-image-width: 8em;
+}
+
+#workskin .userstuff hr {
+  border: none;
+  height: 100px;
+  position: relative;
+  overflow: visible;
+}
+
+#workskin .userstuff hr::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://i.imgur.com/hiUwAGn.png") center no-repeat;
+  background-size: contain;
+}
+
+div.comment {
+  border: none;
+}
+
+#add_comment fieldset,
+#add_comment p,
+#add_comment h4 {
+  color: var(--goldb);
+}
+
+p.kudos {
+  background: url("https://i.imgur.com/WdZSSkG.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 100px;
+  max-width: 70%;
+  color: var(--goldb);
+  margin: auto;
+}
+
+.required-tags,
+.status {
+  filter: sepia(0.8) hue-rotate(280deg) saturate(0.8) brightness(0.6);
+}
+
+img[src$="/images/lockblue.png"] {
+  filter: hue-rotate(60deg) saturate(50%) brightness(150%) sepia(40%);
+}
+
+.index .skins .icon,
+.skins .primary .icon {
+  background: url(https://i.imgur.com/OkfQobA.png);
+  background-size: contain;
+}
+
+.index .tag .icon,
+.index .tagset .icon,
+.admin .primary .icon,
+.status .public,
+.tag .primary .icon,
+.tagset .primary .icon {
+  background: url(https://i.imgur.com/wY1vt6A.png);
+  background-size: contain;
+}
+
+.comment .icon .visitor,
+.index .mystery .icon {
+  background: url("https://i.imgur.com/hcT4OJk.png");
+  background-size: 100px;
+  background-repeat: no-repeat;
+}
+
+span.question,
+span.offered,
+.replied,
+.nominations,
+.approved,
+.actions span.defaulted {
+  background: var(--dark);
+  padding: 1px;
+  color: var(--goldb);
+}
+
+span.question {
+  border: 1px solid var(--goldb);
+}
+
+input[type="checkbox"],
+.actions li label input[type="checkbox"] {
+  display: inline-block;
+  background: #c5bea8;
+  border: 1px solid #c5bea8;
+  width: 15px;
+  height: 15px;
+  border-radius: 0;
+}
+
+input[type="checkbox"]:checked,
+.actions li label input[type="checkbox"]:checked {
+  background: var(--goldb);
+}
+
+input[type=radio] {
+  appearance: none;
+  background: #c5bea8;
+  border: 1px solid #c5bea8;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+input[type=radio]:checked {
+  background: var(--goldb);
+}
+
+span.delete {
+  box-shadow: none;
+}
+
+span.delete a {
+  color: var(--dark) !important;
+}
+
+.delete a {
+  padding: 0;
+  font-size: 2em;
+}
+
+.filters .indicator:before {
+  background: #c5bea8;
+  border: 1px solid var(--goldb);
+  background-image: none;
+  box-shadow: none;
+}
+
+.filters [type="checkbox"]:checked + .indicator:before {
+  background: var(--goldb);
+  border: 1px solid var(--dark);
+  background-image: none;
+  color: var(--dark);
+  box-shadow: none;
+}
+
+.filters [type="radio"]:checked + .indicator:before {
+  background: var(--goldb);
+  background-image: none;
+  box-shadow: none;
+}
+
+.filters .exclude [type="checkbox"]:checked + .indicator:before {
+  background: var(--goldb);
+  background-image: none;
+  color: var(--dark);
+  box-shadow: none;
+}
+
+.comment .LV_validation_message.LV_invalid::after,
+.flash.notice::after,
+.kudos_error::after,
+#kudos_message.notice::after {
+  content: " Worship.";
+}
+
+.required.notice::after {
+  content: "";
+}
+
+fieldset p.note::after,
+#modal .content.userstuff::after {
+  content: "\A Worship.";
+}
+
+.toggled form,
+.dynamic form {
+  background-image: url("https://i.imgur.com/IRP1qd2.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--magd);
+  background-blend-mode: multiply;
+  color: var(--goldl);
+}

@@ -1,0 +1,903 @@
+/* ST AO3 SITE SKINS - EDEN
+ * -------------------------------------
+ *
+ * THIS IS A FAN CREATION AND IS NOT FOR PROFIT.
+ * NO COPYRIGHT INFRINGEMENT IS INTENDED.
+ * I DO NOT CLAIM OWNERSHIP OF ANY OF THE ASSETS USED.
+ * Thank you to Alex Tillbrook for creating the
+ * artwork we all love so much, as well as Marc Holt
+ * and u/Scared_Mae for additional designs!
+ *
+ * Make sure to install the corresponding UserStyle to
+ * have the best experience with this skin!
+ * https://userstyles.world/style/27410
+ */
+
+
+
+
+
+
+:root {
+  --eden: rgb(226,222,211);
+  --dark: #373731;
+}
+
+body {
+  color: var(--dark);
+  background: var(--eden);
+}
+
+.heading,
+h1,
+h2,
+h3,
+.header.module a,
+#dashboard a,
+#dashboard a:hover,
+a.dropdown-toggle,
+a.dropdown-toggle:hover,
+.actions,
+.action,
+input,
+input[type="submit"],
+form,
+button,
+#user-fandoms a,
+.notice,
+.profile-show .wrapper .meta dt {
+  font-family: "FuturaRenner", "Futura LT", Arial, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 0 !important;
+}
+
+.heading,
+h1,
+h2,
+h3,
+.header.module a,
+form.verbose legend,
+.listbox p.actions a,
+.listbox p.actions a:hover,
+.listbox h3 a,
+.listbox h3 a:hover,
+a.dropdown-toggle,
+a.dropdown-toggle:hover,
+.actions,
+.action,
+input,
+input[type="submit"],
+form,
+button,
+.notice,
+#user-fandoms a,
+.profile-show .wrapper .meta dt {
+  letter-spacing: .25em;
+}
+
+#dashboard a,
+#dashboard a:hover,
+#dashboard .current p.kudos {
+  letter-spacing: .15em;
+}
+
+p .jump,
+#workspace p,
+span.symbol {
+  font-family: Arial;
+  text-transform: none;
+}
+
+a,
+button,
+input,
+.actions {
+  transition: all .3s ease;
+}
+
+#header .logo {
+  display: none;
+}
+
+#header {
+  background: var(--eden);
+  background-image: url("https://i.imgur.com/2RsuyQy.png");
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-shadow: none;
+  padding-bottom: 5%;
+  overflow: visible;
+}
+
+#header .heading {
+  margin-bottom: 5%;
+  padding-bottom: 1%;
+  padding-top: 2%;
+  margin-left: 5%;
+  font-size: 1.25em;
+  letter-spacing: .75em;
+}
+
+#header .heading a {
+  color: var(--dark);
+}
+
+#header ul.primary {
+  background: rgba(55, 55, 49,0.5);
+  color: var(--eden);
+  box-shadow: none;
+}
+
+#outer {
+  background-color: var(--eden);
+}
+
+#header .menu.dropdown-menu {
+  background: rgba(55, 55, 49,.85);
+  background-image: none;
+  border-radius: 0;
+  width: max-content;
+}
+
+#header .menu li {
+  border-bottom: none;
+}
+
+#header .menu.dropdown-menu a:link,
+#header .menu.dropdown-menu a:visited {
+  color: var(--eden);
+}
+
+#header .menu.dropdown-menu a:hover {
+  color: var(--dark);
+  background: linear-gradient(270deg, rgba(55, 55, 49,.5) 0%, rgba(226,222,211,.75) 50%) !important;
+}
+
+#greeting .open,
+#header .open,
+#greeting .open .dropdown-toggle {
+  background: transparent;
+  border-radius: 0;
+  color: var(--dark);
+}
+
+.home .header h2 {
+  margin-bottom: 5px;
+}
+
+#greeting ul {
+  border-radius: 0;
+}
+
+nav#greeting {
+  background: rgba(55, 55, 49,0.75);
+}
+
+#greeting .user > li:nth-of-type(3) a,
+#greeting .user.navigation.actions:link,
+#greeting a.dropdown-toggle:link,
+#greeting a.dropdown-toggle:visited,
+#header.region .primary.navigation.actions,
+#header .menu.dropdown-menu a:link,
+#header .menu.dropdown-menu a:visited,
+#dashboard a:link,
+#dashboard a:visited,
+.post .header a,
+.verbose .post fieldset,
+.listbox p.actions a,
+.listbox p.actions a:hover {
+  color: var(--eden);
+}
+
+#greeting a.dropdown-toggle:visited {
+  color: rgba(226,222,211,0.6);
+}
+
+#greeting .user > li:nth-of-type(3) a:hover,
+#greeting .user.navigation.actions a:hover,
+#header.region .primary.navigation.actions a:hover,
+#greeting .user > li:nth-of-type(3) a:focus,
+#greeting .user.navigation.actions a:focus,
+#header.region .primary.navigation.actions a:focus {
+  background: rgba(55, 55, 49, .85);
+  border-radius: 0;
+  color: var(--dark);
+}
+
+h3 a:hover,
+#main .actions a:hover,
+#main .actions button:hover,
+#main .actions input:hover,
+#main .actions a:focus,
+#main .actions button:focus,
+#main .actions input:focus,
+label.action:hover,
+#main .action:hover,
+#main .action:focus,
+#main .actions a:active {
+  letter-spacing: .3em;
+}
+
+#main .actions a:hover,
+#main .actions button:hover,
+#main .actions input:hover,
+#main .actions a:focus,
+#main .actions button:focus,
+#main .actions input:focus,
+#main label.action:hover,
+#main .action:hover,
+#main .action:focus,
+#main .actions a:active {
+  color: var(--dark);
+  background: transparent;
+}
+
+#main ul .actions li a,
+#main .button,
+#main .actions a,
+.actions a:hover,
+.action:hover,
+.actions a:focus,
+.action:focus {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none;
+  background: transparent;
+}
+
+.actions a:link,
+.action:link {
+  background-image: none !important;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  border-bottom: none;
+}
+
+.actions a:link,
+.action,
+.action:link,
+.actions button,
+.actions input,
+input[type="submit"],
+button,
+button[type="submit"],
+.current,
+.actions label {
+  background-image: none;
+  border: none;
+  box-shadow: none;
+}
+
+#main ul.navigation.actions a:hover,
+#main ul.navigation.actions a:focus,
+#main ul.navigation.actions a:active {
+  letter-spacing: .25em !important;
+  text-decoration: underline;
+  background: linear-gradient(0deg, rgba(226,222,211,0) 60%, rgba(226,222,211,.25) 100%);
+}
+
+#main .current,
+#main a.current,
+#main a:link.current,
+#main .current a:visited {
+  text-decoration: underline;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none;
+  border-radius: 0;
+}
+
+#footer {
+  background-color: var(--eden);
+  background-image: url("https://i.imgur.com/xhKFiWb.png");
+  background-position: bottom center;
+  background-size: 70%;
+  padding-bottom: 5%;
+  background-repeat: repeat-x;
+  border: none;
+  color: var(--dark);
+  box-shadow: none;
+}
+
+#footer .heading,
+#footer a,
+#footer a:link,
+#footer a:visited,
+#footer button,
+a.tag,
+.tags a,
+.tags a:link,
+a.tag:visited {
+  color: #373731;
+  text-decoration: none;
+}
+
+#footer .heading {
+  border-bottom: 1px solid var(--eden);
+  font-family: "FuturaRenner", "Futura LT", Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+}
+
+#footer a:hover,
+#footer button:hover {
+  color: var(--eden);
+  background: #373731;
+}
+
+.actions a,
+.actions a:link,
+.actions a:visited,
+.action,
+.action:link,
+.action:visited,
+.actions button,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label {
+  background: var(--eden);
+  border: 2px solid #373731;
+  box-shadow: none;
+}
+
+.actions a:hover,
+.actions button:hover,
+.actions input:hover,
+.action:hover,
+.action:focus,
+input[type="submit"]:hover,
+button:hover,
+.actions input:focus {
+  background: var(--dark) !important;
+  color: var(--eden) !important;
+  text-shadow: none;
+}
+
+.actions input:active,
+.actions input:hover,
+.actions input:focus,
+button:hover {
+  box-shadow: none;
+}
+
+legend,
+form.verbose legend,
+verbose-form legend {
+  background: var(--dark);
+  color: var(--eden);
+  border: 1px solid var(--dark);
+  font-family: "FuturaRenner", "Futura LT", Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-size: 2em;
+  padding: 0.5em;
+  height: auto;
+  width: auto;
+  opacity: 1;
+  box-shadow: none;
+}
+
+.autocomplete div.dropdown ul,
+.comment h4.byline,
+.comment h4.byline a,
+.comment h4.byline a:link,
+.comment span.posted.datetime {
+  background: var(--dark);
+  color: var(--eden);
+}
+
+.autocomplete .dropdown ul li:hover,
+.autocomplete .dropdown li.selected {
+  background: linear-gradient(270deg, rgba(226,222,211,.15) 0%, rgba(226,222,211,.75) 50%) !important;
+  background-image: none;
+  color: var(--dark);
+}
+
+#dashboard,
+#dashboard.own,
+#work-filters fieldset {
+  background-color: var(--dark);
+  background-image: url("https://i.imgur.com/yJo1RCk.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: var(--eden);
+  border: none;
+  box-shadow: none;
+}
+
+#dashboard a,
+#dashboard a:link,
+#dashboard a:visited {
+  color: var(--eden);
+  background: transparent;
+  border-radius: 0;
+}
+
+#work-filters dl,
+.listbox .heading a.tag:visited:hover {
+  background: rgba(55, 55, 49, 0.75);
+}
+
+#dashboard a:hover,
+.thread .even {
+  background: rgba(226,222,211,0.5);
+}
+
+#dashboard .current {
+  color: var(--eden);
+  background: rgba(226,222,211, 0.2);
+}
+
+#dashboard ul {
+  border-top: 2px solid var(--eden);
+}
+
+#dashboard ul.navigation.actions {
+  background: rgba(55, 55, 49, 0.75);
+}
+
+#dashboard.own {
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+}
+
+fieldset {
+  border: 2px solid var(--dark);
+}
+
+.listbox a {
+  color: var(--eden);
+  background-color: rgba(55, 55, 49, 0.3);
+}
+
+.listbox ol.index.group a,
+.listbox ol.index.group a:link {
+  color: var(--dark);
+}
+
+span.symbol {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff {
+  border: none;
+  box-shadow: none;
+}
+
+input[type="text"],
+select,
+.filters .expander {
+  color: var(--eden);
+  background: rgba(55, 55, 49, 0.75);
+  border-radius: 0;
+  box-shadow: none;
+}
+
+textarea {
+  background: var(--eden);
+  color: var(--dark);
+  border: none;
+}
+
+.reading h4.viewed {
+  background: var(--dark);
+  color: var(--eden);
+}
+
+.listbox {
+  background: var(--dark);
+  color: var(--eden);
+  border: 1px double var(--dark);
+  box-shadow: none;
+}
+
+.listbox > .heading,
+.listbox .heading a:visited {
+  color: var(--eden);
+}
+
+ol.pagination {
+  background-color: var(--dark);
+}
+
+.pagination.actions a {
+  color: var(--eden);
+}
+
+.pagination.actions a:hover,
+.pagination.actions a:active,
+.pagination.actions span.current {
+  color: var(--dark);
+  background-color: var(--eden);
+}
+
+.filters .expander {
+  background-repeat: no-repeat;
+}
+
+.favorite h3,
+.news span.title,
+.social h3,
+.random.readings h3,
+.blurb h4 a:link,
+.blurb h4 a:visited,
+.blurb h4 a:focus,
+.blurb h4 a:hover,
+.splash .module h3,
+.index.group .blurb .heading a,
+.index.group .blurb .heading a:visited,
+.news .post.group .header,
+.work.meta.group a {
+  color: var(--dark);
+}
+
+.splash .module h3,
+.picture .header,
+form dt {
+  border-bottom: 1px solid var(--dark);
+}
+
+li.blurb {
+  border: 1px double var(--dark);
+}
+
+.blurb h4 a:focus,
+.blurb h4 a:hover,
+a.tag:hover {
+  background: rgba(55, 55, 49, 0.25);
+}
+
+li.relationships a {
+  background: rgba(55, 55, 49, 0.8);
+  color: var(--eden) !important;
+}
+
+li.relationships a.tag::before,
+li.characters a.tag::before {
+  content: "ꙮ ";
+}
+
+.splash .favorite li:nth-of-type(2n+1) a {
+  background: linear-gradient(270deg, rgba(226,222,211,.5) 0%, rgba(226,222,211,.75) 50%);
+}
+
+.splash .favorite a:hover,
+.splash .favorite li:nth-of-type(2n+1) a:hover {
+  background: linear-gradient(270deg, rgba(55, 55, 49,.15) 20%, rgba(55, 55, 49,.75) 50%);
+  color: var(--eden);
+}
+
+ol .reading.work.index.group,
+.latest.messages.module,
+.social.module,
+#add_comment fieldset,
+.listbox .index,
+.favorite.module,
+.news.module,
+.toggled form,
+.dynamic form {
+  background-image: url("https://i.imgur.com/grBsNjQ.png");
+  background-color: var(--eden);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-position: center;
+  color: var(--dark);
+}
+
+.toggled form,
+.dynamic form {
+  border: 2px solid var(--dark);
+  box-shadow: none;
+}
+
+fieldset,
+fieldset .verbose .post fieldset,
+.verbose fieldset,
+form dl,
+.index.group .blurb,
+dl.work.meta.group {
+  box-shadow: none;
+  background: url("https://i.imgur.com/qvifTK7.jpeg");
+  background-color: var(--eden);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+dl.meta,
+.listbox,
+fieldset fieldset.listbox {
+  border: 1px double var(--dark);
+  box-shadow: none;
+}
+
+.stats a,
+ul.series a,
+.module p a,
+fieldset.fandom.listbox a {
+  color: var(--dark);
+}
+
+.news.index.group {
+  background-image: url("https://i.imgur.com/ZW4skKV.png"), url("https://i.imgur.com/wu2mHIf.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center bottom, center top;
+}
+
+.news li.post.group {
+  background: rgba(226,222,211,.75);
+}
+
+.splash .news li {
+  border-bottom: 1px solid var(--dark);
+}
+
+.splash .news blockquote p:first-child {
+  padding-left: 75px;
+  background: url("https://i.imgur.com/lW4ZaOY.png");
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: 75px;
+  min-height: 100px;
+}
+
+.news .post .header a,
+fieldset h3 {
+  color: var(--dark);
+}
+
+.verbose.post fieldset .notice {
+  border: none;
+}
+
+.notice {
+  background-image: url("https://i.imgur.com/B7Covxr.png") no-repeat;
+  background-color: rgba(55, 55, 49,.75);
+  background-size: cover;
+  color: var(--eden);
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+dl.work.meta.group {
+  border: 1px double var(--dark);
+  color: var(--dark);
+}
+
+.wrapper {
+  box-shadow: none;
+}
+
+#workskin {
+  background-color: var(--eden);
+  background-image: url("https://i.imgur.com/2RsuyQy.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  border: 2em solid transparent;
+  border-image: url('https://i.imgur.com/HrynT5o.png') 42% 30% 42% 30%;
+  border-image-repeat: round;
+  border-image-width: 12em;
+}
+
+#workskin .userstuff hr {
+  border: none;
+  height: 140px;
+  position: relative;
+  overflow: visible;
+}
+
+#workskin .userstuff hr::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://i.imgur.com/ftiP1XH.png") center no-repeat;
+  background-size: contain;
+}
+
+#workskin #chapters {
+  background: rgba(226,222,211,.5);
+  margin-bottom: 8em;
+}
+
+div.comment {
+  border: none;
+}
+
+#add_comment fieldset,
+#add_comment p,
+#add_comment h4 {
+  color: var(--dark);
+}
+
+p.kudos {
+  background: url("https://i.imgur.com/7XAgm1a.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 100px;
+  max-width: 70%;
+  color: var(--dark);
+}
+
+.home .primary .icon {
+  height: 95px;
+  width: 95px;
+  border-radius: 50px;
+}
+
+.home .primary .icon::after {
+  border-radius: 0;
+  background-image: url("https://i.imgur.com/WUu3GMi.png");
+  background-repeat: no-repeat;
+  background-size: 140px 185px;
+  display: inline-block;
+  width: 140px;
+  height: 185px;
+  content: "";
+  position: absolute;
+  left: -15px;
+  top: -32px;
+}
+
+#user-fandoms {
+  padding-top: 15px;
+}
+
+.required-tags,
+.status,
+img[src$="/images/lockblue.png"] {
+  filter: sepia(80%);
+}
+
+.index .skins .icon,
+.skins .primary .icon {
+  background: url(https://i.imgur.com/w2tiRNw.jpeg);
+  background-size: contain;
+}
+
+.index .tag .icon,
+.index .tagset .icon,
+.admin .primary .icon,
+.status .public {
+  background: url(https://i.imgur.com/n1AiwGQ.jpeg);
+  background-size: contain;
+}
+
+.index .mystery .icon,
+.comment .icon .visitor {
+  background: url("https://i.imgur.com/osSIoX2.jpeg");
+  background-size: 100px;
+  background-repeat: no-repeat;
+}
+
+.tag .primary .icon,
+.tagset .primary .icon {
+  background: url("https://i.imgur.com/BPUNFJ8.png");
+  background-size: contain;
+}
+
+span.question,
+span.offered,
+.replied,
+.nominations,
+.approved,
+.actions span.defaulted {
+  background: var(--dark);
+  padding: 1px;
+  color: var(--eden);
+}
+
+span.question {
+  border: 1px solid var(--eden);
+}
+
+input[type="checkbox"],
+.actions li label input[type="checkbox"] {
+  display: inline-block;
+  background: var(--eden);
+  border: 1px solid var(--dark);
+  width: 15px;
+  height: 15px;
+  border-radius: 0;
+}
+
+input[type="checkbox"]:checked,
+.actions li label input[type="checkbox"]:checked {
+  background: var(--dark);
+}
+
+input[type=radio] {
+  appearance: none;
+  background: var(--eden);
+  border: 1px solid var(--dark);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+input[type=radio]:checked {
+  background: var(--dark);
+}
+
+.filters .indicator:before {
+  background: var(--eden);
+  border: 1px solid var(--dark);
+  background-image: none;
+  box-shadow: none;
+}
+
+.filters [type="checkbox"]:checked + .indicator:before {
+  background: var(--dark);
+  border: 1px solid var(--eden);
+  background-image: none;
+  color: var(--eden);
+  box-shadow: none;
+}
+
+.filters [type="radio"]:checked + .indicator:before {
+  background: var(--dark);
+  background-image: none;
+  box-shadow: none;
+}
+
+.filters .exclude [type="checkbox"]:checked + .indicator:before {
+  background: var(--dark);
+  background-image: none;
+  color: var(--eden);
+  box-shadow: none;
+}
+
+.resp-sharing-button--bluesky,
+.resp-sharing-button--tumblr {
+  background: var(--dark) !important;
+  color: var(--eden) !important;
+  margin: 0;
+  background-image: none;
+  border: 4px solid #c5bea8 !important;
+}
+
+.resp-sharing-button__icon--solid {
+  filter: brightness(0.5) sepia(50%);
+}
+
+.resp-sharing-button--bluesky:hover,
+.resp-sharing-button--tumblr:hover {
+  transform: translateY(4px);
+  background: var(--dark) !important;
+  border: 4px solid #c5bea8 !important;
+}
+
+.comment .LV_validation_message.LV_invalid::after,
+.flash.notice::after,
+.kudos_error::after,
+#kudos_message.notice::after {
+  content: " Worship.";
+}
+
+.required.notice::after {
+  content: "";
+}
+
+fieldset p.note::after,
+#modal .content.userstuff::after {
+  content: "\A Worship.";
+}
