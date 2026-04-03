@@ -272,7 +272,7 @@ a.tag {
 
 #footer .heading {
   border-bottom: 1px solid var(--goldb);
-  font-family: "Roabla", "Romanize", "Times New Roman", serif;
+  font-family: "Roabla - Demo Version", "Romanize", "Times New Roman", serif;
   letter-spacing: .15em;
 }
 
@@ -300,7 +300,7 @@ verbose-form legend {
   background: var(--goldb);
   color: var(--dark);
   border: 1px solid var(--goldb);
-  font-family: "Roabla", "Romanize", "Times New Roman", serif;
+  font-family: "Roabla - Demo Version", "Romanize", "Times New Roman", serif;
   letter-spacing: 0.15em;
   font-size: 2em;
   padding: 0.5em;
