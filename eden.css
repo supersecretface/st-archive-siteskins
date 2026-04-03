@@ -51,7 +51,8 @@ button,
 .social.module .heading,
 .listbox > .heading,
 .listbox .heading a:visited,
-.news .title {
+.news .title,
+#header .menu.dropdown-menu {
   font-family: "FuturaRenner", "Futura LT", Arial, sans-serif;
   text-transform: uppercase;
   text-decoration: none;
