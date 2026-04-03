@@ -23,6 +23,87 @@
   --dark: #373731;
 }
 
+.heading,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.header.module a,
+#dashboard a,
+#dashboard a:hover,
+a.dropdown-toggle,
+a.dropdown-toggle:hover,
+.actions,
+.action,
+input,
+input[type="submit"],
+form,
+button,
+#user-fandoms a,
+.notice,
+.profile-show .wrapper .meta dt,
+.splash .module h3,
+.favorite.module .heading,
+.readings.module .heading,
+.latest.messages.module .heading,
+.social.module .heading,
+.listbox > .heading,
+.listbox .heading a:visited,
+.news .title {
+  font-family: "FuturaRenner", "Futura LT", Arial, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 0;
+  color: var(--ltl);
+}
+
+.heading,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.header.module a,
+form.verbose legend,
+.listbox p.actions a,
+.listbox p.actions a:hover,
+.listbox h3 a,
+.listbox h3 a:hover,
+a.dropdown-toggle,
+a.dropdown-toggle:hover,
+.actions,
+.action,
+input,
+input[type="submit"],
+form,
+button,
+.notice,
+#user-fandoms a,
+.profile-show .wrapper .meta dt,
+.splash .module h3,
+.favorite.module .heading,
+.readings.module .heading,
+.latest.messages.module .heading,
+.social.module .heading {
+  letter-spacing: .25em;
+}
+
+#dashboard a,
+#dashboard a:hover,
+#dashboard .current p.kudos {
+  letter-spacing: .15em;
+}
+
+p .jump,
+#workspace p,
+span.symbol {
+  font-family: Arial;
+  text-transform: none;
+}
+
 body {
   color: var(--dark);
   background: var(--eden);
