@@ -13,6 +13,9 @@
  */
 
 
+
+
+
 :root {
   --ltl: rgb(120, 160, 200);
   --deep: rgb(8,17,26);
@@ -315,7 +318,6 @@ form dt {
   color: var(--ltl);
   border: none;
   box-shadow: none;
-  background-blend-mode: difference;
 }
 
 #dashboard a,
@@ -815,10 +817,6 @@ div.pagination .current {
 #workskin {
   background: var(--deep);
   color: var(--ltl);
-  background-image: url("https://i.imgur.com/0yz73rw.jpeg");
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: 100%;
   box-shadow: none;
 }
 
@@ -855,7 +853,7 @@ div.pagination .current {
   left: -20px;
   right: -20px;
   bottom: -20px;
-  background: url("https://i.imgur.com/LMdZ9DN.png") no-repeat;
+  background: url("https://i.imgur.com/8JyVLGJ.png") no-repeat;
   background-size: contain;
   background-position: center center;
   z-index: -1;
@@ -886,9 +884,9 @@ div.pagination .current {
 #workskin #chapters .userstuff {
   border: 7em solid transparent;
   border-width: 0 7em;
-  border-image: url("https://i.imgur.com/CwCF2m1.png") 0 35% 0 35% repeat;
+  border-image: url("https://i.imgur.com/3FrNq28.png") 0 35% 0 35% repeat;
   border-image-repeat: repeat;
-  border-image-inset: 80px;
+  box-sizing: border-box;
 }
 
 .profile-show .wrapper a,
